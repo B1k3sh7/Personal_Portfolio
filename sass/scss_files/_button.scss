@@ -1,0 +1,48 @@
+/* BUTTONS */
+.button {
+  display: inline-block;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--first-color);
+  font-weight: var(--font-medium);
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+}
+
+.button_icon {
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: 0.3s;
+}
+
+.button--white {
+  background-color: #fff;
+  color: var(--first-color);
+}
+
+.button--white:hover {
+  background-color: #fff;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+.button--small {
+  padding: 0.75rem 1rem;
+}
+
+.button--link {
+  padding: 0;
+  background-color: transparent;
+  color: var(--first-color);
+}
+
+.button--link:hover {
+  color: var(--first-color-alt);
+  background-color: transparent;
+}

@@ -1,0 +1,19 @@
+/* USABLE CSS CLASS*/
+.section {
+  padding: 2rem 0 4rem;
+}
+
+.section_title {
+  font-size: var(--h1-font-size);
+}
+
+.section_subtitle {
+  display: block;
+  margin-bottom: var(--mb-3);
+  font-size: var(--small-font-size);
+}
+
+.section_title,
+.section_subtitle {
+  text-align: center;
+}

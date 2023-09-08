@@ -1,0 +1,39 @@
+/* ABOUT */
+.about_img {
+  height: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.about_description {
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+}
+
+.about_info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2-5);
+}
+
+.about_info-title {
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.about_info-name {
+  font-size: var(--smaller-font-size);
+}
+
+.about_info-title,
+.about_info-name {
+  display: block;
+  text-align: center;
+}
+
+.about-buttons {
+  display: flex;
+  justify-content: center;
+}
